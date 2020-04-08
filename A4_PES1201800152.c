@@ -124,7 +124,7 @@ void insert_key(int key, FILE *fp)
             prev = curr;
             prev_node = curr_node;
             if(key < curr_node.key)
-            {
+            { 
                 curr = curr_node.left_offset;
             }
             else if( key > curr_node.key)
